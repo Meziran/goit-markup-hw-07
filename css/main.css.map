@@ -1,0 +1,20 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "../sass/main.scss",
+        "../sass/_variables.scss",
+        "../sass/base/_normalize.scss",
+        "../sass/_haeder.scss",
+        "../sass/_hero.scss",
+        "../sass/_features.scss",
+        "../sass/_doing.scss",
+        "../sass/_team.scss",
+        "../sass/_clients.scss",
+        "../sass/_footer.scss",
+        "../sass/_portfolio.scss",
+        "../sass/_modal.scss"
+    ],
+    "names": [],
+    "file": "main.css"
+}
