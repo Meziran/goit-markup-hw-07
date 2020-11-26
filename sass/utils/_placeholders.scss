@@ -1,0 +1,17 @@
+%flex-aline{
+    display: flex;
+    align-items: center;
+}
+%flex-justify{
+    display: flex;
+    justify-content: center;
+}
+%flex-aline-justify{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+%hover--accent-color{
+    color: $accent-color;
+    transition: 250ms;  
+}

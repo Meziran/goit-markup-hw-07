@@ -1,0 +1,26 @@
+* body{
+    
+    background-color: $white;
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+}
+
+.title-h2, 
+.title-h3{
+    color: $title-text-color; 
+    padding: 0;
+}
+.text{
+    color: $primery-text-color;
+    line-height: 1.71;
+}
+
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+ 
+}
