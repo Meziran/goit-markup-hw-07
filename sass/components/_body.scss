@@ -1,3 +1,13 @@
+html{
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
+}
+
 * body{
     
     background-color: $white;
@@ -5,14 +15,13 @@
     font-size: 14px;
     letter-spacing: 0.03em;
 }
-
 .title-h2, 
 .title-h3{
-    color: $title-text-color; 
+    color: var(--title-text-color); 
     padding: 0;
 }
 .text{
-    color: $primery-text-color;
+    color: var(--primery-text-color);
     line-height: 1.71;
 }
 
@@ -22,5 +31,5 @@
     width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
- 
+   
 }

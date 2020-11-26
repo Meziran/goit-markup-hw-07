@@ -1,0 +1,62 @@
+.card-team{
+    text-align: center;
+    background: var(--white);
+
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
+
+.team{
+    padding: 94px 0;
+    background-color: var(--not-white);
+
+}
+
+.title-team{
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;  
+}
+
+.team-text{
+    font-size: 16px;
+    line-height: 1.19;
+    padding-bottom: 16px;
+}
+.client-icons,
+.social-icons{
+    display: flex;
+    justify-content: center;
+}
+.icons-item:not(:last-child){
+    margin-right: 10px;
+    padding-bottom: 30px;
+}
+.icons-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 44px;
+    width: 44px;
+    fill: var(--fill-icons); 
+    border-radius: 50%;
+}
+.social-icons-svg{
+    width: 20px;
+    height: 20px;
+}
+.icons-link:hover,
+.icons-link:focus{
+    background-color: var(--accent-color);
+    fill: var(--white);
+    transition: 250ms;
+}
+.icons-link:hover .social-icons-svg,
+.icons-link:focus .social-icons-svg{
+     fill: var(--white); 
+
+     transition: 250ms;
+}

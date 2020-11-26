@@ -1,0 +1,200 @@
+.nav-footer{
+    background-color: var(--title-text-color);    
+}
+.flexbox{
+    display: flex;
+    justify-content: flex-start;
+}
+.footer{
+    padding-bottom: 60px;
+    padding-top: 60px;
+}
+.logo-footer{
+    padding-bottom: 20px;
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19; 
+}
+
+.footer-studio{
+    color: var(--white);
+}
+address ul{
+
+    padding-top: 20px;
+ }
+.address{
+    font-style: normal;
+   
+    line-height: 1.71;
+
+    color: var(--white);
+}
+.link-address{
+    padding-bottom: 9px;
+}
+
+.address:hover, .address:focus{
+    color: var(--accent-color);
+    transition: 250ms;
+  }
+
+.connection-footer{
+    
+    font-style: normal;
+    line-height: 1.71;
+
+    color: rgba(255, 255, 255, 0.6); 
+}
+
+.connection-footer:hover, 
+.connection-footer:focus{
+    color: var(--accent-color);
+    
+    transition: 250ms;
+  }
+  .join{
+      padding-top: 72px;
+      padding-bottom: 100px;
+      margin-left: 70px;
+  }
+  .join-title{
+      padding-bottom: 20px;
+    color: var(--white);
+
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+  }
+  .ul-join .join-link+.join-link{
+      margin-left: 10px;
+  }
+
+  .join-link::before{
+      display: inline-block ;
+      justify-content: space-between;
+      content: "";
+      
+      height: 44px;
+      width: 44px;
+      
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-color: rgba(255, 255, 255, 0.1);
+      border-radius: 50%;
+    }
+    .icon-instagram::before{
+        background-size: 20px;
+        background-image: url(../img/icon/footer/footer-instagram.svg);
+    }
+    .icon-twitter::before{
+        background-size: 20px;
+        background-image: url(../img/icon/footer/footer-twitter.svg);
+    }
+    .icon-facebook::before{
+        background-size: 20px;
+        background-image: url(../img/icon/footer/footer-facebook.svg);
+    }
+    .icon-linkedin::before{
+        background-size: 20px;
+        background-image: url(../img/icon/footer/footer-linkedin.svg);
+    }
+     
+    .join-link:hover,
+    .join-link:focus{
+        height: 44px;
+        width: 44px;
+        background-color: var(--accent-color);
+        border-radius: 50%;
+
+        transition: 250ms;
+    }
+    
+    .form-footer{ 
+        padding-top: 72px;
+        /* padding-bottom: 100px; */
+        margin-left: 93px;
+        
+    }
+
+    .btn-footer{
+        position: relative;
+        margin-left: 12px;
+        padding-top: 10px;
+        padding-right:62px ;
+        padding-left: 29px;
+        padding-bottom: 10px;
+        
+        min-width: 200px;
+        border: 1px transparent;
+        
+        border-radius: 4px;
+        background-color: var(--accent-color);
+        
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 1.87;
+        letter-spacing: 0.06em;
+        font-family: Roboto, sans-serif;
+    
+        color: var(--white);
+    }
+    .modal-form-footer{
+        width: 358px;
+        height: 50px;
+
+        padding: 16px;
+
+        font-size: 16px;
+        line-height: 1.25;
+        border-radius: 4px;
+    }
+    .form-fild-footer{
+        /* outline: 1px solid red; */
+        display: flex;
+
+        position: relative;
+    }
+    .footer-modal-icon{
+        position: absolute;
+        top: 25%;
+        /* top: 40%; */
+        right: 16px;
+        display: inline-block;
+    }
+    .footer-icon-svg{    
+        width: 24px;
+        height: 24px;
+        fill: white;
+    }
+        
+
+    .buton-hero:hover,
+    .btn-modal:hover, 
+
+    .btn-footer:hover,
+    .btn-footer:hover ~ .footer-icon-svg{
+
+        color: var(--accent-color);
+        background-color: var( --white);
+        fill: var(--accent-color);
+    } 
+
+    .btn-footer:focus{
+        color: var(--accent-color);
+        background-color: var( --white);
+        fill: var(--accent-color); 
+        
+        transition: 250ms;
+    }
+    .btn-footer:focus ~ .footer-icon-svg{
+        fill: var(--accent-color);
+
+        background-color: var( --white);
+
+        transition: 250ms;
+      }
