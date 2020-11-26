@@ -8,20 +8,20 @@
     align-items: center;
     width: 170px;
     height: 90px;
-    border: 1px solid var(--fill-icons);
+    border: 1px solid $fill-icons;
     border-radius: 4px;
-    fill: var(--fill-icons);
+    fill: $fill-icons;
 }
 
 .icons-link-clients:hover,
 .icons-link-clients:focus  {
-    border: 1px solid var(--accent-color);
-    fill: var(--accent-color);
+    border: 1px solid $accent-color;
+    fill: $accent-color;
     transition: 250ms;
 }
 .icons-link-clients:hover .client-icons-svg,
 .icons-link-clients:target .client-icons-svg{
-     fill: var(--accent-color); 
+     fill: $accent-color; 
 
      transition: 250ms;
 }

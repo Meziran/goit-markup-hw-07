@@ -72,12 +72,12 @@ html {
 
 .title-h2,
 .title-h3 {
-  color: var(--title-text-color);
+  color: #212121;
   padding: 0;
 }
 
 .text {
-  color: var(--primery-text-color);
+  color: #757575;
   line-height: 1.71;
 }
 
@@ -180,15 +180,15 @@ html {
 }
 
 .logo-web {
-  color: var(--accent-color);
+  color: #2196F3;
 }
 
 .logo-studio {
-  color: var(--title-text-color);
+  color: #212121;
 }
 
 .link-header {
-  color: var(--title-text-color);
+  color: #212121;
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
@@ -197,13 +197,13 @@ html {
 
 .link-header:hover,
 .link-header:focus {
-  color: var(--accent-color);
+  color: #2196F3;
   -webkit-transition: 250ms;
   transition: 250ms;
 }
 
 .link-header.current {
-  color: var(--accent-color);
+  color: #2196F3;
 }
 
 .link-header:hover::after,
@@ -213,7 +213,7 @@ html {
   width: 100%;
   height: 4px;
   border-radius: 4px;
-  background-color: var(--accent-color);
+  background-color: #2196F3;
   margin-top: 28px;
   -webkit-transition: 250ms;
   transition: 250ms;
@@ -229,7 +229,7 @@ html {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  color: var(--primery-text-color);
+  color: #757575;
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
@@ -237,7 +237,7 @@ html {
 
 .connection-header:hover,
 .connection-header:focus {
-  color: var(--accent-color);
+  color: #2196F3;
   -webkit-transition: 250ms;
   transition: 250ms;
 }
@@ -246,7 +246,7 @@ html {
 .icon-smartphone:target .envelope,
 .icon-smartphone:hover .tel,
 .icon-smartphone:target .tel {
-  fill: var(--accent-color);
+  fill: #2196F3;
   -webkit-transition: 250ms;
   transition: 250ms;
 }
@@ -258,7 +258,7 @@ html {
   margin-right: auto;
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 0, 0, 0.4)), color-stop(rgba(0, 48, 0, 0.4)), to(rgba(0, 0, 58, 0.4))), url("../img/hero.jpg");
   background-image: linear-gradient(rgba(47, 0, 0, 0.4), rgba(0, 48, 0, 0.4), rgba(0, 0, 58, 0.4)), url("../img/hero.jpg");
-  background-color: var(--title-text-color);
+  background-color: #212121;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -273,7 +273,7 @@ html {
       align-content: center;
   padding-top: 200px;
   width: 696px;
-  color: var(--white);
+  color: #FFFFFF;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -301,13 +301,13 @@ html {
   -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
           box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
-  background-color: var(--accent-color);
+  background-color: #2196F3;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.06em;
   font-family: Roboto, sans-serif;
-  color: var(--white);
+  color: #FFFFFF;
 }
 
 .title-h3 {
@@ -344,7 +344,7 @@ html {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  background-color: var(--not-white);
+  background-color: #F5F4FA;
   border-radius: 4px;
 }
 
@@ -415,7 +415,7 @@ html {
   height: 24%;
   width: 100%;
   background-color: rgba(47, 48, 58, 0.8);
-  color: var(--white);
+  color: #FFFFFF;
   font-family: Roboto;
   font-weight: 700;
   font-size: 14px;
@@ -433,7 +433,7 @@ html {
 
 .card-team {
   text-align: center;
-  background: var(--white);
+  background: #FFFFFF;
   -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
           box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
@@ -441,7 +441,7 @@ html {
 
 .team {
   padding: 94px 0;
-  background-color: var(--not-white);
+  background-color: #F5F4FA;
 }
 
 .title-team {
@@ -485,7 +485,7 @@ html {
           align-items: center;
   height: 44px;
   width: 44px;
-  fill: var(--fill-icons);
+  fill: #AFB1B8;
   border-radius: 50%;
 }
 
@@ -496,15 +496,15 @@ html {
 
 .icons-link:hover,
 .icons-link:focus {
-  background-color: var(--accent-color);
-  fill: var(--white);
+  background-color: #2196F3;
+  fill: #FFFFFF;
   -webkit-transition: 250ms;
   transition: 250ms;
 }
 
 .icons-link:hover .social-icons-svg,
 .icons-link:focus .social-icons-svg {
-  fill: var(--white);
+  fill: #FFFFFF;
   -webkit-transition: 250ms;
   transition: 250ms;
 }
@@ -525,28 +525,28 @@ html {
           align-items: center;
   width: 170px;
   height: 90px;
-  border: 1px solid var(--fill-icons);
+  border: 1px solid #AFB1B8;
   border-radius: 4px;
-  fill: var(--fill-icons);
+  fill: #AFB1B8;
 }
 
 .icons-link-clients:hover,
 .icons-link-clients:focus {
-  border: 1px solid var(--accent-color);
-  fill: var(--accent-color);
+  border: 1px solid #2196F3;
+  fill: #2196F3;
   -webkit-transition: 250ms;
   transition: 250ms;
 }
 
 .icons-link-clients:hover .client-icons-svg,
 .icons-link-clients:target .client-icons-svg {
-  fill: var(--accent-color);
+  fill: #2196F3;
   -webkit-transition: 250ms;
   transition: 250ms;
 }
 
 .nav-footer {
-  background-color: var(--title-text-color);
+  background-color: #212121;
 }
 
 .flexbox {
@@ -572,7 +572,7 @@ html {
 }
 
 .footer-studio {
-  color: var(--white);
+  color: #FFFFFF;
 }
 
 address ul {
@@ -582,7 +582,7 @@ address ul {
 .address {
   font-style: normal;
   line-height: 1.71;
-  color: var(--white);
+  color: #FFFFFF;
 }
 
 .link-address {
@@ -590,7 +590,7 @@ address ul {
 }
 
 .address:hover, .address:focus {
-  color: var(--accent-color);
+  color: #2196F3;
   -webkit-transition: 250ms;
   transition: 250ms;
 }
@@ -603,7 +603,7 @@ address ul {
 
 .connection-footer:hover,
 .connection-footer:focus {
-  color: var(--accent-color);
+  color: #2196F3;
   -webkit-transition: 250ms;
   transition: 250ms;
 }
@@ -616,7 +616,7 @@ address ul {
 
 .join-title {
   padding-bottom: 20px;
-  color: var(--white);
+  color: #FFFFFF;
   font-family: Roboto;
   font-weight: 700;
   font-size: 14px;
@@ -667,7 +667,7 @@ address ul {
 .join-link:focus {
   height: 44px;
   width: 44px;
-  background-color: var(--accent-color);
+  background-color: #2196F3;
   border-radius: 50%;
   -webkit-transition: 250ms;
   transition: 250ms;
@@ -689,13 +689,13 @@ address ul {
   min-width: 200px;
   border: 1px transparent;
   border-radius: 4px;
-  background-color: var(--accent-color);
+  background-color: #2196F3;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.06em;
   font-family: Roboto, sans-serif;
-  color: var(--white);
+  color: #FFFFFF;
 }
 
 .modal-form-footer {
@@ -726,28 +726,28 @@ address ul {
 .footer-icon-svg {
   width: 24px;
   height: 24px;
-  fill: white;
+  fill: #FFFFFF;
 }
 
 .buton-hero:hover,
 .btn-modal:hover,
 .btn-footer:hover,
 .btn-footer:hover ~ .footer-icon-svg {
-  color: var(--accent-color);
+  color: #2196F3;
   background-color: var(--white);
-  fill: var(--accent-color);
+  fill: #2196F3;
 }
 
 .btn-footer:focus {
-  color: var(--accent-color);
+  color: #2196F3;
   background-color: var(--white);
-  fill: var(--accent-color);
+  fill: #2196F3;
   -webkit-transition: 250ms;
   transition: 250ms;
 }
 
 .btn-footer:focus ~ .footer-icon-svg {
-  fill: var(--accent-color);
+  fill: #2196F3;
   background-color: var(--white);
   -webkit-transition: 250ms;
   transition: 250ms;
@@ -767,7 +767,7 @@ address ul {
 .button-filter {
   border-radius: 4px;
   border: 1px transparent;
-  background-color: var(--not-white);
+  background-color: #F5F4FA;
 }
 
 .btn-text {
@@ -789,8 +789,8 @@ address ul {
 .button-filter:focus,
 .btn-text:hover,
 .btn-text:focus {
-  background-color: var(--accent-color);
-  color: var(--white);
+  background-color: #2196F3;
+  color: #FFFFFF;
   -webkit-transition: 250ms;
   transition: 250ms;
 }
@@ -809,7 +809,7 @@ address ul {
   margin-right: 28px;
   margin-bottom: 28px;
   border: 1px solid #EEEEEE;
-  background: var(--white);
+  background: #FFFFFF;
 }
 
 .work-kard:hover {
@@ -835,7 +835,7 @@ address ul {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  color: var(--title-text-color);
+  color: #212121;
 }
 
 .text-work {
@@ -843,7 +843,7 @@ address ul {
   padding-left: 24px;
   font-size: 16px;
   line-height: 1.87;
-  color: var(--primery-text-color);
+  color: #757575;
 }
 
 .position-work-kard {
@@ -861,7 +861,7 @@ address ul {
   font-size: 18px;
   line-height: 1.56;
   letter-spacing: 0.03em;
-  color: var(--white);
+  color: #FFFFFF;
   background-color: rgba(33, 150, 243, 0.9);
   opacity: 0;
 }
@@ -953,7 +953,7 @@ address ul {
 
 .close-modal:hover .modal-icons-close,
 .close-modal:focus .modal-icons-close {
-  fill: var(--accent-color);
+  fill: #2196F3;
   -webkit-transition: 250ms;
   transition: 250ms;
 }
@@ -988,11 +988,11 @@ address ul {
 .form-fild label {
   margin-bottom: 6px;
   font-size: 12px;
-  color: var(--primery-text-color);
+  color: #757575;
 }
 
 .form-fild textarea {
-  color: var(--primery-text-color);
+  color: #757575;
   font-size: 12px;
   margin: 0;
   padding: 12px 16px;
@@ -1005,14 +1005,14 @@ address ul {
 }
 
 .form-input:focus ~ .modal-icon-svg {
-  fill: var(--accent-color);
+  fill: #2196F3;
   -webkit-transition: 250ms;
   transition: 250ms;
 }
 
 .form-input:focus {
   outline: none;
-  border-color: var(--accent-color);
+  border-color: #2196F3;
   -webkit-transition: 250ms;
   transition: 250ms;
 }
@@ -1052,7 +1052,7 @@ address ul {
   } */
 .title-contract {
   text-decoration: underline;
-  color: var(--accent-color);
+  color: #2196F3;
 }
 
 .btn-modal {
@@ -1066,8 +1066,8 @@ address ul {
   min-width: 200px;
   border: 1px transparent;
   border-radius: 4px;
-  background-color: var(--accent-color);
-  color: var(--white);
+  background-color: #2196F3;
+  color: #FFFFFF;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
@@ -1077,8 +1077,8 @@ address ul {
 
 .btn-modal:hover,
 .btn-modal:focus {
-  border: 1px solid var(--accent-color);
-  color: var(--accent-color);
+  border: 1px solid #2196F3;
+  color: #2196F3;
   background-color: var(--white);
   -webkit-transition: 250ms;
   transition: 250ms;

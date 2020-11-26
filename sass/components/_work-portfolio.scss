@@ -11,7 +11,7 @@
     margin-bottom: 28px;
 
     border: 1px solid #EEEEEE;    
-    background: var(--white);
+    background: $white;
 }
 .work-kard:hover{
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16); 
@@ -37,7 +37,7 @@
     line-height: 2;
     letter-spacing: 0.06em;
     
-    color: var(--title-text-color); 
+    color: $title-text-color; 
 }  
 
 .text-work{
@@ -47,7 +47,7 @@
     font-size: 16px;
     line-height: 1.87;
 
-    color: var(--primery-text-color);
+    color: $primery-text-color;
 }
 .position-work-kard{
     position: relative;
@@ -70,7 +70,7 @@
 
     letter-spacing: 0.03em;
 
-    color:var(--white);
+    color:$white;
     background-color: rgba(33, 150, 243, 0.9);
     
     opacity: 0;

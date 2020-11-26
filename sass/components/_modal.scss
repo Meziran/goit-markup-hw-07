@@ -51,7 +51,7 @@
 }
 .close-modal:hover .modal-icons-close,
 .close-modal:focus .modal-icons-close{
-    fill: var(--accent-color);
+    fill: $accent-color;
     transition: 250ms;
 }
 .form-fild{
@@ -80,10 +80,10 @@
 .form-fild label{
     margin-bottom: 6px;
     font-size: 12px;
-    color: var(--primery-text-color);
+    color: $primery-text-color;
 }
 .form-fild textarea{
-    color: var(--primery-text-color);
+    color: $primery-text-color;
     font-size: 12px;    
     margin: 0;
     padding: 12px 16px;
@@ -95,12 +95,12 @@
     height: 40px;
 }
 .form-input:focus ~  .modal-icon-svg {
-    fill: var(--accent-color);
+    fill: $accent-color;
     transition: 250ms;
   }
 .form-input:focus {
     outline: none;
-    border-color: var(--accent-color);
+    border-color: $accent-color;
     transition: 250ms;
   } 
 .contract{
@@ -139,7 +139,7 @@
 
 .title-contract{
     text-decoration: underline;
-    color: var(--accent-color);
+    color: $accent-color;
 }
 .btn-modal{
     display: flex;
@@ -153,8 +153,8 @@
     border: 1px transparent;
         
     border-radius: 4px;
-    background-color: var(--accent-color);
-    color: var(--white); 
+    background-color: $accent-color;
+    color: $white; 
 
     font-weight: 700;
     font-size: 16px;
@@ -164,8 +164,8 @@
 }
 .btn-modal:hover,
 .btn-modal:focus{
-    border: 1px solid var(--accent-color);
-    color: var(--accent-color);
+    border: 1px solid $accent-color;
+    color: $accent-color;
     background-color: var( --white);
     transition: 250ms;
 }

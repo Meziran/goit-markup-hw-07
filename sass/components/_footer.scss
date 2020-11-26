@@ -1,5 +1,5 @@
 .nav-footer{
-    background-color: var(--title-text-color);    
+    background-color: $title-text-color;    
 }
 .flexbox{
     display: flex;
@@ -18,7 +18,7 @@
 }
 
 .footer-studio{
-    color: var(--white);
+    color: $white;
 }
 address ul{
 
@@ -29,14 +29,14 @@ address ul{
    
     line-height: 1.71;
 
-    color: var(--white);
+    color: $white;
 }
 .link-address{
     padding-bottom: 9px;
 }
 
 .address:hover, .address:focus{
-    color: var(--accent-color);
+    color: $accent-color;
     transition: 250ms;
   }
 
@@ -50,7 +50,7 @@ address ul{
 
 .connection-footer:hover, 
 .connection-footer:focus{
-    color: var(--accent-color);
+    color: $accent-color;
     
     transition: 250ms;
   }
@@ -61,7 +61,7 @@ address ul{
   }
   .join-title{
       padding-bottom: 20px;
-    color: var(--white);
+    color: $white;
 
     font-family: Roboto;
     font-weight: 700;
@@ -108,7 +108,7 @@ address ul{
     .join-link:focus{
         height: 44px;
         width: 44px;
-        background-color: var(--accent-color);
+        background-color: $accent-color;
         border-radius: 50%;
 
         transition: 250ms;
@@ -133,7 +133,7 @@ address ul{
         border: 1px transparent;
         
         border-radius: 4px;
-        background-color: var(--accent-color);
+        background-color: $accent-color;
         
         font-weight: 700;
         font-size: 16px;
@@ -141,7 +141,7 @@ address ul{
         letter-spacing: 0.06em;
         font-family: Roboto, sans-serif;
     
-        color: var(--white);
+        color: $white;
     }
     .modal-form-footer{
         width: 358px;
@@ -169,7 +169,7 @@ address ul{
     .footer-icon-svg{    
         width: 24px;
         height: 24px;
-        fill: white;
+        fill: $white;
     }
         
 
@@ -179,20 +179,20 @@ address ul{
     .btn-footer:hover,
     .btn-footer:hover ~ .footer-icon-svg{
 
-        color: var(--accent-color);
+        color: $accent-color;
         background-color: var( --white);
-        fill: var(--accent-color);
+        fill: $accent-color;
     } 
 
     .btn-footer:focus{
-        color: var(--accent-color);
+        color: $accent-color;
         background-color: var( --white);
-        fill: var(--accent-color); 
+        fill: $accent-color; 
         
         transition: 250ms;
     }
     .btn-footer:focus ~ .footer-icon-svg{
-        fill: var(--accent-color);
+        fill: $accent-color;
 
         background-color: var( --white);
 

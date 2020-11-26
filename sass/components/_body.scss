@@ -17,11 +17,11 @@ html{
 }
 .title-h2, 
 .title-h3{
-    color: var(--title-text-color); 
+    color: $title-text-color; 
     padding: 0;
 }
 .text{
-    color: var(--primery-text-color);
+    color: $primery-text-color;
     line-height: 1.71;
 }
 
