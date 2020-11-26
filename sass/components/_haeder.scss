@@ -1,7 +1,5 @@
 .nav{
-    display: flex;
-    align-items: center;
-    
+    @extend %flex-aline;
     }
     
     .nav-list{
@@ -14,18 +12,14 @@
         padding-top: 32px 0;
     }
     .info-list{
-        display: flex;
+        @extend %flex-justify;
         margin-left: auto;
-        justify-content: center;
-        
     }   
     .icon-smartphone,
     .icon-envelope{
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        @extend %flex-aline-justify;
         
-        fill: #757575;
+        fill: $primery-text-color;
     }
     /* .smartphone, */
     .envelope {
@@ -77,25 +71,21 @@
     
     .link-header{
         color: $title-text-color;
+
         font-weight: 500;
         line-height: 1.14;
         letter-spacing: 0.02em;
         padding-top: 32px;
+    
+    &:hover, 
+    &:focus{
+        @extend %hover--accent-color
     }
-    
-    
-    
-    .link-header:hover, 
-    .link-header:focus{
-        color: $accent-color;
         
-        transition: 250ms;
-    }
-    
-    
-    .link-header.current{
+    &.current{
         color: $accent-color;
     } 
+    }
     .link-header:hover::after,
     .current::after{
         content: "";
@@ -104,36 +94,30 @@
         height: 4px;
         border-radius: 4px;
         background-color: $accent-color;
+        
         margin-top: 28px;
         
         transition: 250ms;
     }
     
     .connection-header{
-        display: flex;
-        justify-content: center;
-        align-items: center;
+    @extend %flex-aline-justify;
         color: $primery-text-color;
     
         font-weight: 500;
         line-height: 1.14;
         letter-spacing: 0.02em;
+    
+    &:hover, 
+    &:focus{
+        @extend %hover--accent-color;
     }
-    
-    .connection-header:hover, 
-    .connection-header:focus{
-        color: $accent-color;
-    
-        transition: 250ms;
     }
-    
     .icon-envelope:hover .envelope,
     .icon-smartphone:target .envelope,
     .icon-smartphone:hover .tel,
     .icon-smartphone:target .tel
     {
-        fill: $accent-color;
-    
-        transition: 250ms;
+        @extend %hover--fill-accent;
     }
     

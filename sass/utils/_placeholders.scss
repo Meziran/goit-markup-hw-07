@@ -15,7 +15,10 @@
     color: $accent-color;
     transition: 250ms;  
 }
-
+%hover--fill-accent{
+    fill: $accent-color;
+    transition: 250ms;  
+}
 %margin-auto{
     margin-left: auto;
     margin-right: auto;

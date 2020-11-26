@@ -55,14 +55,16 @@
             </div>
 
         </section>
-        <form action="">
+        <form action="#">
             <div class="backdrop is-hidden" data-modal>
                 <div class="modal">
                     <button class="close-modal" data-close-modal>
-                        <svg class="client-icons-svg modal-icons-close">
-                            <use href="./img/sprite.svg#icon-Vector11">
-                            </use>
-                        </svg>
+                        <span class="client-icons-svg">
+                            <svg class=" modal-icons-close">
+                                <use href="./img/sprite.svg#icon-Vector11">
+                                </use>
+                            </svg>
+                        </span>
                     </button>
                     <div role="group">
                         <p class="title-modal">Оставьте свои данные, мы вам перезвоним</p>
@@ -70,40 +72,39 @@
                             <li class="form-fild">
                                 <label for="name">Имя</label>
                                 <input type="text" name="name" id="name" class="size-modal form-input">
-                                <svg class="modal-icon modal-icon-svg" width="12" heigh="12">
+                                <svg class="modal-icon modal-icon-svg" width="12">
                                     <use href="./img/sprite.svg#icon-Vector21"></use>
                                 </svg>
                             </li>
                             <li class="form-fild">
                                 <label for="tel">Телефон</label>
                                 <input type="tel" name="tel" id="tel" class="size-modal form-input">
-                                <svg class="modal-icon modal-icon-svg" width="12" heigh="12">
+                                <svg class="modal-icon modal-icon-svg" width="12">
                                     <use href="./img/sprite.svg#icon-Vector31"></use>
                                 </svg>
                             </li>
                             <li class="form-fild">
-                                <label for="mail">Почта</label>
-                                <input type="email" name="email" id="email" class="size-modal form-input">
-                                <svg class="modal-icon modal-icon-svg" width="12" heigh="12">
+                                <label for="mail-modal">Почта</label>
+                                <input type="email" name="mail-modal" id="mail-modal" class="size-modal form-input">
+                                <svg class="modal-icon modal-icon-svg" width="12">
                                     <use href="./img/sprite.svg#icon-Vector41"></use>
                                 </svg>
                             </li>
-                            <li class="form-fild">
-                                <label for="comment">Комментарий</label>
-                                <textarea name="comment" id="comment" cols="50%" rows="5" placeholder="Введите текст"
+                            <li class="form-fild-textarea">
+                                <label for="comment" class="title-textarea">Комментарий</label>
+                                <textarea name="comment" id="comment" rows="5" placeholder="Введите текст"
                                     class="form-input"></textarea></li>
                         </ul>
                     </div>
                     <div class="contract">
-                        <input type="checkbox" name="checkbox" value="checkbox" id="checkbox" class="checkbox">
-                        <span>
-                            <svg class="modal-icon-checbox" width="16" heigh="16">
+                        <label for="checkbox">
+                            <input type="checkbox" name="checkbox" value="checkbox" id="checkbox" class="checkbox">
+                            <svg class="modal-icon-checbox" width="16">
                                 <use href="./img/sprite.svg#icon-check"></use>
                             </svg>
-                        </span>
-                        <label for="checkbox">Соглашаюсь с рассылкой и принимаю <a href="#"
-                                class="title-contract">Условия
-                                договора</a> </label>
+                            Соглашаюсь с рассылкой и принимаю <a href="#" class="title-contract">Условия
+                                договора</a>
+                        </label>
                     </div>
                     <button class="btn-modal" type="submit">Отправить</button>
 

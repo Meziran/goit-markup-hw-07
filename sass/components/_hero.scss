@@ -1,8 +1,7 @@
 .hero{
     max-width: 1600px;
     height: 600px;
-    margin-left: auto;
-    margin-right: auto;
+    @extend %margin-auto;
     
     background-image: linear-gradient(
     
@@ -37,8 +36,7 @@
     text-transform: uppercase;
 }
 .btn-blok{
-    display: flex;
-    justify-content: center;
+    @extend %flex-justify;
 }
 .buton-hero{
     display: block;

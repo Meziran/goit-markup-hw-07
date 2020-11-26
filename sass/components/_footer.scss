@@ -180,7 +180,7 @@ address ul{
     .btn-footer:hover ~ .footer-icon-svg{
 
         color: $accent-color;
-        background-color: var( --white);
+        background-color: $white;
         fill: $accent-color;
     } 
 

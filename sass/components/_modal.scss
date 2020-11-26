@@ -20,20 +20,15 @@
     left: 50%;
     transform: translate(-50%, -50%);
     
-    
-
-
     width: 528px;
     height: 581px;
 
-    background-color:var( --white);
+    background-color: $white;
 }
 
 .close-modal{
-    display: flex;
-        
-    align-items: center;
-    justify-content: center;
+    @extend %flex-aline-justify;
+
     margin-top: 8px;
     margin-left: auto;
     margin-right: 8px;
@@ -42,26 +37,35 @@
     height: 30px;
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 50%;
-    background-color:var( --white);
-    
+    background-color: $white;
+
+    &:hover .modal-icons-close,
+    &:focus .modal-icons-close{
+        @extend %hover--fill-accent;
+} 
 }
 .modal-icons-close{
     width: 11px;
     height: 11px;
 }
-.close-modal:hover .modal-icons-close,
-.close-modal:focus .modal-icons-close{
-    fill: $accent-color;
-    transition: 250ms;
-}
+
 .form-fild{
-    /* outline: 1px solid red; */
     display: flex;
     flex-direction: column;
     margin: 0 40px 10px 40px;
     position: relative;
 }
-
+.form-fild-textarea{
+    display: flex;
+    flex-direction: column;
+    margin: 0 40px 0 40px;
+    position: relative;
+}
+.title-textarea{
+    padding-bottom: 10px;
+    font-size: 12px;
+    color: $primery-text-color;
+}
 .title-modal{
     padding-bottom: 12px;
 
@@ -82,21 +86,20 @@
     font-size: 12px;
     color: $primery-text-color;
 }
-.form-fild textarea{
+.form-fild-textarea textarea{
     color: $primery-text-color;
     font-size: 12px;    
     margin: 0;
     padding: 12px 16px;
-
     border-radius: 4px;
     border: 1px solid rgba(33, 33, 33, 0.2); 
+    
 }
 .size-modal{
     height: 40px;
 }
 .form-input:focus ~  .modal-icon-svg {
-    fill: $accent-color;
-    transition: 250ms;
+    @extend %hover--fill-accent;
   }
 .form-input:focus {
     outline: none;
@@ -104,16 +107,15 @@
     transition: 250ms;
   } 
 .contract{
-    /* text-align: center; */
-    /* padding-left: 77px; */
+    padding-left: 77px;
     padding-top: 20px;
+    
     font-weight: normal;
     font-size: 14px;
-    line-height: 1,71;
-    color: #757575;
-    
+    line-height: 1,7;
+    color: $primery-text-color;
 }
-.checkbox {
+ .checkbox {
     position: absolute;
     width: 1px;
     height: 1px;
@@ -122,24 +124,29 @@
     overflow: hidden;
     border: 0;
     clip: rect(0 0 0 0);
-  }
+  }  
 
-  /* .modal-icon-checbox{
-    /* position: absolute; */
-    /* display: inline-block;  
+  .modal-icon-checbox{
+    position: absolute;
+    display: inline-block;  
     width: 16px;
-    height: 16px; */
-    /* background-color: red; */
-    /* border: 2px solid #212121;  
+    height: 16px;
+    margin-left: -25px;
+    
+    border: 2px solid $title-text-color;  
     border-radius: 2px;
-   } */
-  /*.checkbox:checked + .modal-icon-checbox{
-      background-color: red;
-  } */
+  }
+  .checkbox:checked + .modal-icon-checbox{
+   background-color: $accent-color;
+   border: 1px solid $accent-color;
+ 
+   transition: 250ms;
+  } 
 
 .title-contract{
     text-decoration: underline;
     color: $accent-color;
+    
 }
 .btn-modal{
     display: flex;
@@ -161,13 +168,13 @@
     line-height: 1.87;
     letter-spacing: 0.06em;
     font-family: Roboto, sans-serif;
-}
-.btn-modal:hover,
-.btn-modal:focus{
+
+&:hover,
+&:focus{
     border: 1px solid $accent-color;
-    color: $accent-color;
-    background-color: var( --white);
+    background-color: $white;
     transition: 250ms;
+}
 }
 .modal-icon{
     position: absolute;
