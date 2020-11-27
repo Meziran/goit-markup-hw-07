@@ -56,9 +56,7 @@
         padding-bottom: 25px;
     
         font-family: Raleway;
-        font-weight: 700;
-        font-size: 26px;
-        line-height: 1.19; 
+        @include fonts(700px, 26px, 1.19em);
     }
     
     .logo-web{
@@ -71,9 +69,8 @@
     
     .link-header{
         color: $title-text-color;
-
-        font-weight: 500;
-        line-height: 1.14;
+        @include fonts(500px, 14px, 1.14em);
+        
         letter-spacing: 0.02em;
         padding-top: 32px;
     
@@ -103,9 +100,8 @@
     .connection-header{
     @extend %flex-aline-justify;
         color: $primery-text-color;
-    
-        font-weight: 500;
-        line-height: 1.14;
+        @include fonts(500px, 14px, 1.14em);
+        
         letter-spacing: 0.02em;
     
     &:hover, 

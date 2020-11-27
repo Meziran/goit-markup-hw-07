@@ -12,13 +12,16 @@ html{
     
     background-color: $white;
     font-family: Roboto, sans-serif;
-    font-size: 14px;
-    letter-spacing: 0.03em;
+    @include fonts(400px, 14px, 0.03em);
 }
 .title-h2, 
 .title-h3{
     color: $title-text-color; 
     padding: 0;
+}
+.title-h3{
+    @include fonts(700px, 14px, 1.14em);
+
 }
 .text{
     color: $primery-text-color;

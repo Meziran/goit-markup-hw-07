@@ -2,10 +2,8 @@
     margin-bottom: 50px;
    
     text-align: center;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.19;
-    }
+    @include fonts(700px, 36px, 1.19em);
+}
 
 .cont-client,
 .cont-doing,
@@ -30,9 +28,8 @@
     color: $white;
     
     font-family: Roboto;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.14;
+    @include fonts(700px, 14px, 1.14em);
+
     letter-spacing: 0.03em;
     text-transform: uppercase;
 
