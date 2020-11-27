@@ -1,0 +1,7 @@
+@mixin fonts ($fs, $fw, $lh){ 
+    font-weight: $fs;
+    font-size: $fw;
+    line-height: $lh;
+}
+
+@include fonts(px, px, em);
