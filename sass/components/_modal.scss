@@ -173,6 +173,7 @@
 &:focus{
     border: 1px solid $accent-color;
     background-color: $white;
+    color: $accent-color;
     transition: 250ms;
 }
 }

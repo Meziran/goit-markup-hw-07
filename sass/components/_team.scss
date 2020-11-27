@@ -27,17 +27,14 @@
 }
 .client-icons,
 .social-icons{
-    display: flex;
-    justify-content: center;
+    @extend %flex-justify;
 }
 .icons-item:not(:last-child){
     margin-right: 10px;
     padding-bottom: 30px;
 }
 .icons-link{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @extend %flex-aline-justify;
 
     height: 44px;
     width: 44px;
@@ -51,8 +48,7 @@
 .icons-link:hover,
 .icons-link:focus{
     background-color: $accent-color;
-    fill: $white;
-    transition: 250ms;
+    @extend %hover--fill-accent
 }
 .icons-link:hover .social-icons-svg,
 .icons-link:focus .social-icons-svg{

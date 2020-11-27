@@ -4,8 +4,7 @@
 .client,
 .ul-join
 {
-    display: flex;
-    justify-content: center;
+    @extend %flex-justify;
 }
 .cont-features{
 margin-top: 94px;    

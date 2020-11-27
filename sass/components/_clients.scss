@@ -3,25 +3,20 @@
 }
 
 .icons-link-clients{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @extend %flex-aline-justify;
     width: 170px;
     height: 90px;
     border: 1px solid $fill-icons;
     border-radius: 4px;
     fill: $fill-icons;
-}
 
-.icons-link-clients:hover,
-.icons-link-clients:focus  {
+    &:hover,
+    &:focus  {
     border: 1px solid $accent-color;
-    fill: $accent-color;
-    transition: 250ms;
+    @extend %hover--fill-accent;
+}
 }
 .icons-link-clients:hover .client-icons-svg,
 .icons-link-clients:target .client-icons-svg{
-     fill: $accent-color; 
-
-     transition: 250ms;
+     @extend %hover--fill-accent;
 }
