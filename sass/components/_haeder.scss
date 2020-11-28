@@ -4,12 +4,12 @@
     
     .nav-list{
         display: inline-flex;
-        padding-left: 93px;
+        @include padding_position (0px, 0px, 0px, 93px);
     }
     
     .nav-list .link-header{
         display: block;
-        padding-top: 32px 0;
+        @include padding_position (32px, 0px, 0px, 0px);
     }
     .info-list{
         @extend %flex-justify;
@@ -25,16 +25,17 @@
     .envelope {
        width: 24px;
        height: 16px; 
-       padding-right: 10px;
+       @include padding_position (0px, 10px, 0px, 0px);
     }
     .tel {
         width: 25px;
         height: 16px; 
-        padding-right: 10px;
-     }
+        @include padding_position (0px, 10px, 0px, 0px);
+    }
     .info-list .connection-header{
         display: flex;
-        padding: 32px 0; 
+        @include padding_position (32px, 0px, 32px, 0px);
+        
     }
     
     .nav-list .item + .item{
@@ -45,18 +46,17 @@
     }
     
     .list {
-        padding: 0;
+        @include padding_position (0px, 0px, 0px, 0px);
         margin: 0;
     }
     
     .logo{
         display: flex;
         
-        padding-top: 24px;
-        padding-bottom: 25px;
+        @include padding_position (25px, 0px, 24px, 0px);
     
         font-family: Raleway;
-        @include fonts(700px, 26px, 1.19em);
+        @include fonts(700, 26px, 1.19em);
     }
     
     .logo-web{
@@ -69,10 +69,10 @@
     
     .link-header{
         color: $title-text-color;
-        @include fonts(500px, 14px, 1.14em);
+        @include fonts(500, 14px, 1.14em);
         
         letter-spacing: 0.02em;
-        padding-top: 32px;
+        @include padding_position (32px, 0px, 0px, 0px);
     
     &:hover, 
     &:focus{
@@ -100,7 +100,7 @@
     .connection-header{
     @extend %flex-aline-justify;
         color: $primery-text-color;
-        @include fonts(500px, 14px, 1.14em);
+        @include fonts(500, 14px, 1.14em);
         
         letter-spacing: 0.02em;
     

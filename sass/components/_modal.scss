@@ -56,8 +56,8 @@
     position: relative;
 }
 .title-fild{
-    padding-top: 10px;
-    padding-bottom: 4px;
+    @include padding_position (10px, 0px, 4px, 0px);
+
     font-size: 12px;
     color: $primery-text-color;
 }
@@ -68,24 +68,24 @@
     position: relative;
 }
 .title-textarea{
-    padding-top: 10px;
-    padding-bottom: 10px;
+    @include padding_position (10px, 0px, 10px, 0px);
+
     font-size: 12px;
     color: $primery-text-color;
 }
 .title-modal{
-    padding-bottom: 12px;
-
+    @include padding_position (0px, 0px, 12px, 0px);
+    
     text-align: center;
 
     font-weight: bold;
     font-size: 20px;
     line-height: 1.15;
-
 }
 .form-fild input{
     border-radius: 4px; 
-    padding-left:42px;
+    @include padding_position (0px, 0px, 0px, 42px);
+
     border: 1px solid rgba(33, 33, 33, 0.2); 
 }
 .form-fild label{
@@ -97,7 +97,8 @@
     color: $primery-text-color;
     font-size: 12px;    
     margin: 0;
-    padding: 12px 16px;
+    @include padding_position (12px, 16px, 12px, 16px);
+    
     border-radius: 4px;
     border: 1px solid rgba(33, 33, 33, 0.2); 
     
@@ -114,10 +115,9 @@
     transition: 250ms;
   } 
 .contract{
-    padding-left: 77px;
-    padding-top: 20px;
+    @include padding_position (20px, 0px, 0px, 77px);
     
-    @include fonts(400px, 14px, 1.7em);
+    @include fonts(400, 14px, 1.7em);
    
     color: $primery-text-color;
 }
@@ -126,7 +126,7 @@
     width: 1px;
     height: 1px;
     margin: -1px;
-    padding: 0;
+    @include padding_position (0px, 0px, 0px, 0px);
     overflow: hidden;
     border: 0;
     clip: rect(0 0 0 0);
@@ -156,8 +156,8 @@
 }
 .btn-modal{
     display: flex;
-
-    padding: 10px 55px;
+    @include padding_position (10px, 55px, 10px, 55px);
+    
     margin-top: 30px;
     margin-left: auto;
     margin-right: auto;
@@ -169,7 +169,7 @@
     background-color: $accent-color;
     color: $white; 
 
-    @include fonts(700px, 16px, 1.87em);
+    @include fonts(700, 16px, 1.87em);
     
     letter-spacing: 0.06em;
     font-family: Roboto;
@@ -190,4 +190,5 @@
     display: inline-block;
 }
 .modal-icon-svg{    width: 18px;
-    height: 18px;}
+    height: 18px;
+}

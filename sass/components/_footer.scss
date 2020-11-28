@@ -6,20 +6,21 @@
     justify-content: flex-start;
 }
 .footer{
-    padding-bottom: 60px;
-    padding-top: 60px;
+   @include padding_position (60px, 0px, 60px, 0px);
 }
 .logo-footer{
-    padding-bottom: 20px;
+    @include padding_position (0px, 0px, 20px, 0px);
+    
     font-family: Raleway;
-    @include fonts(700px, 26px, 1.19em);
+    @include fonts(700, 26px, 1.19em);
 }
 
 .footer-studio{
     color: $white;
 }
 address ul{
-    padding-top: 20px;
+    @include padding_position (20px, 0px, 0px, 0px);
+    
  }
 .address{
     font-style: normal;
@@ -34,7 +35,8 @@ address ul{
   }
 }
 .link-address{
-    padding-bottom: 9px;
+    @include padding_position (0px, 0px, 9px, 0px);
+    
 }
 
 .connection-footer{
@@ -50,16 +52,16 @@ address ul{
 }
 
   .join{
-      padding-top: 72px;
-      padding-bottom: 100px;
-      margin-left: 70px;
+    @include padding_position (72px, 0px, 100px, 70px);
+    
   }
   .join-title{
-    padding-bottom: 20px;
+    @include padding_position (0px, 0px, 20px, 0px);
+    
     color: $white;
 
     font-family: Roboto;
-    @include fonts(700px, 14px, 1.14em);
+    @include fonts(700, 14px, 1.14em);
     
     text-transform: uppercase;
   }
@@ -111,19 +113,15 @@ address ul{
     }
     
     .form-footer{ 
-        padding-top: 72px;
-        /* padding-bottom: 100px; */
+        @include padding_position (72px, 0px, 0px, 0px);
+
         margin-left: 93px;
-        
-    }
+     }
 
     .btn-footer{
         position: relative;
         margin-left: 12px;
-        padding-top: 10px;
-        padding-right:62px ;
-        padding-left: 29px;
-        padding-bottom: 10px;
+        @include padding_position (10px, 62px, 10px, 29px);
         
         min-width: 200px;
         border: 1px transparent;
@@ -132,7 +130,7 @@ address ul{
         background-color: $accent-color;
 
         font-family: Roboto;
-        @include fonts(700px, 16px, 1.87em);
+        @include fonts(700, 16px, 1.87em);
         
         letter-spacing: 0.06em;
         
@@ -143,9 +141,9 @@ address ul{
         width: 358px;
         height: 50px;
 
-        padding: 16px;
-
-        @include fonts(400px, 16px, 1.25em);
+        @include padding_position (16px, 16px, 16px, 16px);
+        
+        @include fonts(400, 16px, 1.25em);
         
         border-radius: 4px;
     }
@@ -178,6 +176,7 @@ address ul{
         color: $accent-color;
     } 
 
+    .buton-hero:focus,
     .btn-footer:focus{
         color: $accent-color;
         background-color: $white;

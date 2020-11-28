@@ -1,7 +1,8 @@
 .blok-work{
     display: flex;
     flex-wrap: wrap;
-    padding-bottom: 94px;
+    @include padding_position (0px, 0px, 94px, 0px);
+    
 }
 
 .work-kard{
@@ -28,11 +29,9 @@
 
 }
  .title-work{
-    padding-top: 20px;
-    padding-bottom: 4px;
-    padding-left: 24px;
+    @include padding_position (20px, 0px, 4px, 24px);
 
-    @include fonts(700px, 18px, 2em);
+    @include fonts(700, 18px, 2em);
     
     letter-spacing: 0.06em;
     
@@ -40,8 +39,7 @@
 }  
 
 .text-work{
-    padding-bottom: 20px;
-    padding-left: 24px;
+     @include padding_position (0px, 0px, 20px, 24px);
 
     font-size: 16px;
     line-height: 1.87;
@@ -57,14 +55,14 @@
 
     height: 100%;
     width: 100%;
-
-    padding: 63px 24px;
     
+    @include padding_position (64px, 24px, 64px, 24px);
+        
     top: 0;
     left: 0;
     
     font-family: Roboto;
-    @include fonts(400px, 18px, 1.56em);
+    @include fonts(400, 18px, 1.56em);
     
     letter-spacing: 0.03em;
 

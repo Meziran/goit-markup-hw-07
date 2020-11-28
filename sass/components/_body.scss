@@ -12,15 +12,15 @@ html{
     
     background-color: $white;
     font-family: Roboto, sans-serif;
-    @include fonts(400px, 14px, 0.03em);
+    @include fonts(400, 14px, 0.03em);
 }
 .title-h2, 
 .title-h3{
     color: $title-text-color; 
-    padding: 0;
+    @include padding_position (0px, 0px, 0px, 0px);
 }
 .title-h3{
-    @include fonts(700px, 14px, 1.14em);
+    @include fonts(700, 14px, 1.14em);
 
 }
 .text{
@@ -31,7 +31,5 @@ html{
 .container{
    @extend %margin-auto;
     width: 1200px;
-    padding-left: 15px;
-    padding-right: 15px;
-   
+    @include padding_position (0px, 15px, 0px, 15px);
 }
