@@ -16,11 +16,11 @@
     margin-top: 30px;
     margin-bottom: 10px;
 
-    @include fonts(500px, 16px, 1,19em);
+    @include fonts(500px, 16px, 1.19em);
 }
 
 .team-text{
-    @include fonts(500px, 16px, 1,19em);
+    @include fonts(500px, 16px, 1.36em);
     
     padding-bottom: 16px;
 }
