@@ -1,13 +1,13 @@
 .blok-work{
     display: flex;
     flex-wrap: wrap;
-    @include padding_position (0px, 0px, 94px, 0px);
+    @include padding (0px, 0px, 94px, 0px);
     
 }
 
 .work-kard{
-    width: 370px;
-
+    @include size (370px, );
+    
     margin-right: 28px;
     margin-bottom: 28px;
 
@@ -29,7 +29,7 @@
 
 }
  .title-work{
-    @include padding_position (20px, 0px, 4px, 24px);
+    @include padding (20px, 0px, 4px, 24px);
 
     @include fonts(700, 18px, 2em);
     
@@ -39,7 +39,7 @@
 }  
 
 .text-work{
-     @include padding_position (0px, 0px, 20px, 24px);
+     @include padding (0px, 0px, 20px, 24px);
 
     font-size: 16px;
     line-height: 1.87;
@@ -53,10 +53,9 @@
 .title-work-kard{
     position: absolute;
 
-    height: 100%;
-    width: 100%;
+    @include size (100%, 100%);
     
-    @include padding_position (64px, 24px, 64px, 24px);
+    @include padding (64px, 24px, 64px, 24px);
         
     top: 0;
     left: 0;

@@ -9,7 +9,7 @@
 .cont-doing,
 .title-client
 {
-@include padding_position (94px, 0px, 94px, 0px);
+@include padding (94px, 0px, 94px, 0px);
 }
 
 .position-doing{
@@ -22,8 +22,8 @@
     bottom: 0;
     left: 0;
    
-    height: 24%;
-    width: 100%;
+    @include size (100%, 24%);
+
     background-color: rgba(47, 48, 58, 0.8);
     color: $white;
     

@@ -4,8 +4,9 @@
 
 .icons-link-clients{
     @extend %flex-aline-justify;
-    width: 170px;
-    height: 90px;
+
+    @include size (170px, 90px);
+
     border: 1px solid $fill-icons;
     border-radius: 4px;
     fill: $fill-icons;

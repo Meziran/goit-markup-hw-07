@@ -139,6 +139,7 @@ html {
 
 .container {
   width: 1200px;
+  height: auto;
   padding-top: 0px;
   padding-right: 15px;
   padding-bottom: 0px;
@@ -170,7 +171,6 @@ html {
   fill: #757575;
 }
 
-/* .smartphone, */
 .envelope {
   width: 24px;
   height: 16px;
@@ -181,7 +181,7 @@ html {
 }
 
 .tel {
-  width: 25px;
+  width: 24px;
   height: 16px;
   padding-top: 0px;
   padding-right: 10px;
@@ -284,7 +284,11 @@ html {
   display: inline-flex;
   align-content: center;
   padding-top: 200px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
   width: 696px;
+  height: auto;
   color: #FFFFFF;
   font-family: Roboto;
   font-weight: 900;
@@ -323,6 +327,7 @@ html {
 .features {
   display: inline-block;
   width: 270px;
+  height: auto;
 }
 
 .features::before {
@@ -396,8 +401,8 @@ html {
   position: absolute;
   bottom: 0;
   left: 0;
-  height: 24%;
   width: 100%;
+  height: 24%;
   background-color: rgba(47, 48, 58, 0.8);
   color: #FFFFFF;
   font-family: Roboto;
@@ -451,8 +456,8 @@ html {
 }
 
 .icons-link {
-  height: 44px;
   width: 44px;
+  height: 44px;
   fill: #AFB1B8;
   border-radius: 50%;
 }
@@ -574,8 +579,8 @@ address ul {
   display: inline-block;
   justify-content: space-between;
   content: "";
-  height: 44px;
   width: 44px;
+  height: 44px;
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -605,8 +610,8 @@ address ul {
 
 .join-link:hover,
 .join-link:focus {
-  height: 44px;
   width: 44px;
+  height: 44px;
   background-color: #2196F3;
   border-radius: 50%;
   transition: 250ms;
@@ -738,6 +743,7 @@ address ul {
 
 .work-kard {
   width: 370px;
+  height: auto;
   margin-right: 28px;
   margin-bottom: 28px;
   border: 1px solid #EEEEEE;
@@ -785,8 +791,8 @@ address ul {
 
 .title-work-kard {
   position: absolute;
-  height: 100%;
   width: 100%;
+  height: 100%;
   padding-top: 64px;
   padding-right: 24px;
   padding-bottom: 64px;

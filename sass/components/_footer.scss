@@ -6,10 +6,10 @@
     justify-content: flex-start;
 }
 .footer{
-   @include padding_position (60px, 0px, 60px, 0px);
+   @include padding (60px, 0px, 60px, 0px);
 }
 .logo-footer{
-    @include padding_position (0px, 0px, 20px, 0px);
+    @include padding (0px, 0px, 20px, 0px);
     
     font-family: Raleway;
     @include fonts(700, 26px, 1.19em);
@@ -19,7 +19,7 @@
     color: $white;
 }
 address ul{
-    @include padding_position (20px, 0px, 0px, 0px);
+    @include padding (20px, 0px, 0px, 0px);
     
  }
 .address{
@@ -35,7 +35,7 @@ address ul{
   }
 }
 .link-address{
-    @include padding_position (0px, 0px, 9px, 0px);
+    @include padding (0px, 0px, 9px, 0px);
     
 }
 
@@ -52,11 +52,11 @@ address ul{
 }
 
   .join{
-    @include padding_position (72px, 0px, 100px, 70px);
+    @include padding (72px, 0px, 100px, 70px);
     
   }
   .join-title{
-    @include padding_position (0px, 0px, 20px, 0px);
+    @include padding (0px, 0px, 20px, 0px);
     
     color: $white;
 
@@ -74,9 +74,8 @@ address ul{
       justify-content: space-between;
       content: "";
       
-      height: 44px;
-      width: 44px;
-      
+      @include size (44px, 44px);
+           
       background-size: contain;
       background-repeat: no-repeat;
       background-position: center;
@@ -104,8 +103,8 @@ address ul{
      
     .join-link:hover,
     .join-link:focus{
-        height: 44px;
-        width: 44px;
+        @include size (44px, 44px);
+
         background-color: $accent-color;
         border-radius: 50%;
 
@@ -113,7 +112,7 @@ address ul{
     }
     
     .form-footer{ 
-        @include padding_position (72px, 0px, 0px, 0px);
+        @include padding (72px, 0px, 0px, 0px);
 
         margin-left: 93px;
      }
@@ -121,7 +120,7 @@ address ul{
     .btn-footer{
         position: relative;
         margin-left: 12px;
-        @include padding_position (10px, 62px, 10px, 29px);
+        @include padding (10px, 62px, 10px, 29px);
         
         min-width: 200px;
         border: 1px transparent;
@@ -138,10 +137,9 @@ address ul{
         color: $white;
     }
     .modal-form-footer{
-        width: 358px;
-        height: 50px;
+        @include size (358px, 50px);
 
-        @include padding_position (16px, 16px, 16px, 16px);
+        @include padding (16px, 16px, 16px, 16px);
         
         @include fonts(400, 16px, 1.25em);
         
@@ -159,9 +157,8 @@ address ul{
         right: 16px;
         display: inline-block;
     }
-    .footer-icon-svg{    
-        width: 24px;
-        height: 24px;
+    .footer-icon-svg{  
+        @include size (24px, 24px);  
         fill: $white;
     }
         

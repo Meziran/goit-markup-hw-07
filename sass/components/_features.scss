@@ -13,7 +13,7 @@ margin-top: 94px;
 
 .features{
     display: inline-block;
-    width: 270px;   
+    @include size (270px,);
 }
 
 .features::before{
@@ -54,7 +54,7 @@ margin-top: 94px;
 }
 
 .title-features{
-    @include padding_position (30px, 0px, 10px, 0px);
+    @include padding (30px, 0px, 10px, 0px);
     
     text-transform: uppercase;
  }

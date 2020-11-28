@@ -17,7 +17,7 @@ html{
 .title-h2, 
 .title-h3{
     color: $title-text-color; 
-    @include padding_position (0px, 0px, 0px, 0px);
+    @include padding (0px, 0px, 0px, 0px);
 }
 .title-h3{
     @include fonts(700, 14px, 1.14em);
@@ -30,6 +30,9 @@ html{
 
 .container{
    @extend %margin-auto;
-    width: 1200px;
-    @include padding_position (0px, 15px, 0px, 15px);
+    
+    @include size (1200px,);
+
+    @include padding (0px, 15px, 0px, 15px);
 }
+

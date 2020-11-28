@@ -7,7 +7,7 @@
 }
 
 .team{
-    @include padding_position (94px, 0px, 94px, 0px);
+    @include padding (94px, 0px, 94px, 0px);
     
     background-color: $not-white;
 }
@@ -21,7 +21,7 @@
 
 .team-text{
     @include fonts(500, 16px, 1.36em);
-    @include padding_position (0px, 0px, 16px, 0px);
+    @include padding (0px, 0px, 16px, 0px);
     
 }
 .client-icons,
@@ -30,19 +30,18 @@
 }
 .icons-item:not(:last-child){
     margin-right: 10px;
-    @include padding_position (0px, 0px, 30px, 0px);
+    @include padding (0px, 0px, 30px, 0px);
 }
 .icons-link{
     @extend %flex-aline-justify;
 
-    height: 44px;
-    width: 44px;
+    @include size (44px, 44px);
+    
     fill: $fill-icons; 
     border-radius: 50%;
 }
 .social-icons-svg{
-    width: 20px;
-    height: 20px;
+    @include size (20px, 20px);
 }
 .icons-link:hover,
 .icons-link:focus{
