@@ -70,9 +70,9 @@
         color: $title-text-color;
         @include fonts(500, 14px, 1.14em);
         
-        letter-spacing: 0.02em;
         @include padding (32px, 0px, 0px, 0px);
-    
+        letter-spacing: 0.02em;
+        
     &:hover, 
     &:focus{
         @extend %hover--accent-color
@@ -93,7 +93,7 @@
         
         margin-top: 28px;
         
-        transition: 250ms;
+        @extend %animation;     
     }
     
     .connection-header{

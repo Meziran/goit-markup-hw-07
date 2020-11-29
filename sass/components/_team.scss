@@ -39,6 +39,13 @@
     
     fill: $fill-icons; 
     border-radius: 50%;
+
+    @extend %animation;
+    
+    &:hover .social-icons-svg,
+    &:focus .social-icons-svg{
+     fill: $white; 
+}
 }
 .social-icons-svg{
     @include size (20px, 20px);
@@ -48,9 +55,4 @@
     background-color: $accent-color;
     @extend %hover--fill-accent
 }
-.icons-link:hover .social-icons-svg,
-.icons-link:focus .social-icons-svg{
-     fill: $white; 
 
-     transition: 250ms;
-}

@@ -108,7 +108,7 @@ address ul{
         background-color: $accent-color;
         border-radius: 50%;
 
-        transition: 250ms;
+        @extend %animation;
     }
     
     .form-footer{ 
@@ -182,4 +182,4 @@ address ul{
     .btn-footer:focus ~ .footer-icon-svg{
         @extend %hover--fill-accent;
         background-color: $white;
-      }
+    }
